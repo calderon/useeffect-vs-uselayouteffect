@@ -1,3 +1,9 @@
+## How to replicate
+
+Run `yarn start` and later open [http://localhost:3000](http://localhost:3000). First time, you will see header as grey. If you scroll, header becomes to red. It applies two classes, `.Header--scrolled` and `.Header--scrolledLayout`, but first one as an `!important`. Now, with page scrolled, reload page again. You will see header as blue, because it is applying only `.Header--scrolledLayout` class.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
